@@ -1,5 +1,13 @@
 ﻿@inherits LayoutComponentBase
 
+@code {
+    protected override void OnInitialized()
+    {
+        // Statischer Titel für die ganze App
+        Application.Current!.Windows.FirstOrDefault().Title = "HAK Maui Template";
+    }
+}
+
 <nav class="pico-background-slate-900">
     <ul>
         <li><strong><i class="fa-solid fa-rocket"></i> HAK Template (Pico.css)</strong></li>
