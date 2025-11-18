@@ -16,7 +16,9 @@ namespace HAK_MAUI_Hybrid_Startertemplate
                 });
 
             builder.Services.AddMauiBlazorWebView();
+
 // Wird nur ausgeführt wenn Zielplattform MS Windows ist
+// Stellt die Fenstergröße ein und platziert das Fenster in der Mitte des Bildschirms
 #if WINDOWS
             SetWindowSizeAndPosition(builder, 800, 600);
 #endif

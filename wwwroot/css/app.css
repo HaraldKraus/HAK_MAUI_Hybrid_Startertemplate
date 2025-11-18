@@ -119,3 +119,34 @@ h1:focus {
         padding-left: env(safe-area-inset-left);
     }
 }
+
+nav {    
+    padding: 0.75rem 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Logo/Text links weiß und etwas fetter */
+nav strong {
+    color: white !important;
+    font-size: 1.25rem;
+}
+
+/* Buttons rechts als schöne Outline-Buttons */
+nav a[role="button"].outline,
+nav button.outline {
+    color: #e2e8f0 !important;
+    border-color: #475569 !important;
+}
+
+    nav a[role="button"].outline:hover,
+    nav button.outline:hover {
+        background: rgba(255,255,255,0.1) !important;
+        color: white !important;
+    }
+
+/* Optional: aktuell aktive Seite hervorheben */
+nav a[role="button"][aria-current="page"],
+nav a[role="button"].active {
+    background: var(--primary) !important;
+    color: white !important;
+}
