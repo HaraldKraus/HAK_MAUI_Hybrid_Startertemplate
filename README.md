@@ -1,3 +1,3 @@
-# HAK Mistelbach - MAUI Blazor Hypbrid Template
+# HAK Mistelbach - MAUI Blazor Hybrid Template
 
-Diese Blazor Maui Hybrid Template verwendet Pico.css
+Diese Blazor Maui Hybrid Template verwendet Pico.css.
